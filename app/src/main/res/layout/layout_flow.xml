@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:text="常用网站"
+        android:id="@+id/tv_title_nav"/>
+  <!--  <com.example.usercwq.wanandroid.view.FlowLayout
+       android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#e8e8e8"
+        android:padding="5dp"
+        android:id="@+id/flow"/>-->
+    <com.example.lhy.wanandroid.util.FlowLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/flow"
+        android:layout_marginLeft="25dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+    </com.example.lhy.wanandroid.util.FlowLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#0e0101</color>
+    <color name="huishe">#dcdbdb</color>
+    <color name="qiehei">#494343</color>
+    <color name="hong">#ff3131</color>
+
+    <color name="c_636363">#85cca8</color>
+    <color name="viewBackground">#ffffff</color>
+    <color name="lan">#06acb7</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/ji_fen" android:title="@string/jifen" android:icon="@mipmap/jifen"/>
+    <item android:id="@+id/collection" android:title="@string/collect" android:icon="@mipmap/shoucang"/>
+    <item android:id="@+id/todo" android:title="@string/todo" android:icon="@mipmap/menu"/>
+    <item android:id="@+id/ye_jms" android:title="@string/ye_jms" android:icon="@mipmap/yejian"/>
+    <item android:id="@+id/seeting" android:title="@string/seeting" android:icon="@mipmap/setting"/>
+    <item android:id="@+id/about_me" android:title="@string/about_me" android:icon="@drawable/ic_about_us_white_24dp"/>
+    <item android:id="@+id/t_login" android:title="@string/t_login" android:icon="@drawable/ic_logout_white_24dp"/>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="置顶"
+            android:textColor="@color/hong"
+            android:id="@+id/tv_name_zhiding"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="网易"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tv_name_zhiding"
+            android:id="@+id/tv_name_wy"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:text="2019-10-17"
+            android:id="@+id/tv_name_timer"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:padding="7dp"
+        android:text="斗2019年"
+        android:id="@+id/tv_message_liebiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="公众号/鸿洋"
+            android:id="@+id/tv_left_name_liebiao"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_like_not"
+            android:id="@+id/iv_right_image_liebiao"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>
